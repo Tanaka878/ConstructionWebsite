@@ -37,7 +37,7 @@ header nav .nav-button:hover {
 /* Hero Section */
 #home {
     height: 100vh;
-    background: url('Images/hero2.jpeg') center/cover no-repeat;
+    background: url('Images/HERO6.jpeg') center/cover no-repeat;
     color: #fff;
     display: flex;
     align-items: center;
@@ -213,4 +213,107 @@ form button:hover {
     .service-card {
         margin: 10px 0;
     }
+}
+/* Customer Confessions Section */
+#confessions {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#confessions h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#confessions p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.confession-list {
+    max-width: 800px;
+    margin: 0 auto 40px;
+    text-align: left;
+}
+
+.confession {
+    background-color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Profile Picture Circle */
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.confession h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.confession p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Confession Form Styling */
+.confession-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.confession-form h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.confession-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.confession-form input, .confession-form textarea, .confession-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.confession-form button {
+    width: 100%;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confession-form button:hover {
+    background-color: #cc5200;
 }

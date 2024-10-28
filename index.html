@@ -79,6 +79,55 @@
         </div>
     </section>
 
+    <!--Confession-->
+       <!-- Customer Confessions Section -->
+<section id="confessions">
+    <h2>Customer Confessions</h2>
+    <p>See what our clients have to say about our services! Share your experience below.</p>
+
+    <!-- Displayed confessions from customers -->
+    <div class="confession-list">
+        <div class="confession">
+            <div class="profile-picture" style="background-image: url('Images/img2.jpeg');"></div>
+            <h4>Mr. Machado</h4>
+            <p>They are good. Perfection</p>
+        </div>
+        <div class="confession">
+            <div class="profile-picture" style="background-image: url('Images/hero.jpeg');"></div>
+            <h4>Mureedzwa</h4>
+            <p>Vanopedza basa vakomana ava. vanogona ava. Keep up the good work</p>
+        </div>
+        <!-- Additional customer confessions can be added here -->
+    </div>
+
+    <!-- Form for users to submit their confession -->
+    <div class="confession-form">
+        <h3>Share Your Experience</h3>
+        <form action="submitConfession" method="post">
+            <label for="confession-name">Your Name:</label>
+            <input type="text" id="confession-name" name="name" required>
+
+            <label for="confession-service">Service Used:</label>
+            <select id="confession-service" name="service" required>
+                <option value="building">Building</option>
+                <option value="plastering">Plastering</option>
+                <option value="painting">Painting</option>
+                <option value="fencing">Fencing</option>
+                <option value="plumbing">Plumbing</option>
+                <option value="drawingPlans">Drawing Plans</option>
+                <option value="roofing">Roofing</option>
+                <option value="tiling">Tiling</option>
+            </select>
+
+            <label for="confession-comment">Your Comment:</label>
+            <textarea id="confession-comment" name="comment" rows="4" required></textarea>
+
+            <button type="submit">Submit Confession</button>
+        </form>
+    </div>
+</section>
+
+
     <!-- About Us Section -->
     <section id="about">
         <h2>About Us</h2>
