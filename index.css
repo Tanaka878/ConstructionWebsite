@@ -37,7 +37,7 @@ header nav .nav-button:hover {
 /* Hero Section */
 #home {
     height: 100vh;
-    background: url('Images/HERO6.jpeg') center/cover no-repeat;
+    background: url('Images/head.jpeg') center/cover no-repeat;
     color: #fff;
     display: flex;
     align-items: center;
